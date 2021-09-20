@@ -45,9 +45,11 @@
 }
 /* end navigation */
 
-/* Banner Area */
+/* Start Banner Area */
 .site-main .site-banner {
   background: url(../img/banner/home-banner.png) no-repeat 15% 17%;
+  background-color: var(--primary-color4);
+  padding: 100px 0;
 }
 
 .site-main .site-banner .site-title h3 {
@@ -62,10 +64,16 @@
 .site-main .site-banner .site-title h4 {
   font-size: 1.5rem;
 }
+.site-main .site-banner .banner-image img {
+  max-width: 120%;
+}
 
 /* End Banner Area */
 
 /* Start About Area */
+.site-main .about-area {
+  padding: 200px 0;
+}
 .site-main .about-area .paragraph .para a {
   color: var(--primary-color);
   font-weight: 500;
