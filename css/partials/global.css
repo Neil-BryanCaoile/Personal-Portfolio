@@ -1,0 +1,56 @@
+/* Global Classes */
+
+.title-text {
+  font: normal bold 50px/72px var(--roboto);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.button {
+  padding: 0.8rem 2.2rem;
+  font: normal 500 16px/20px var(--roboto);
+  position: relative;
+  border: 1px solid #4b372e;
+  border-radius: 4px;
+  color: white;
+}
+
+.button.primary-button {
+  background: var(--primary-color);
+  transition: background.6s ease;
+  box-shadow: var(--box-shadow);
+}
+.button.primary-button:hover {
+  background: #e5d4ba;
+  color: #212529;
+  font-weight: bold;
+}
+
+.button.secondary-button {
+  background: var(--primary-color2);
+  border-color: #b96731;
+  transition: background.6s ease;
+}
+.button.secondary-button:hover {
+  background-color: var(--primary-color3);
+  color: var(--title-color);
+  font-weight: bold;
+}
+
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/25px var(--roboto);
+}
+.hover-up {
+  display: inline-block;
+  transition: all 0.25s;
+}
+.hover-up:hover {
+  transform: translateY(-0.25em);
+}
+.font-roboto {
+  font-family: var(--roboto);
+}
